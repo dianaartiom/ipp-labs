@@ -4,6 +4,25 @@ import abstractfactory.interfaces.IPhone;
 
 public class ApplePhone implements IPhone {
 
+    private String model;
+    private String color;
+
+    public String getModel() {
+        return model;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setModel(String model) {
+        this.model = model;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
     public void setMemory(Integer memory) {
         return;
     }
